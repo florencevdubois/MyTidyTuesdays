@@ -22,8 +22,7 @@ wind_turbine <- readr::read_csv('https://raw.githubusercontent.com/rfordatascien
   filter(province_territory == "Nova Scotia" |
            province_territory == "New Brunswick" |
            province_territory == "Prince Edward Island") %>% 
-  mutate(count = 1) %>% 
-  dplyr::group_by()
+  mutate(count = 1)
 
 class(wind_turbine$lat_deg)
 
