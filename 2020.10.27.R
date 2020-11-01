@@ -21,8 +21,7 @@ library(ggtext)
 wind_turbine <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-27/wind-turbine.csv') %>% 
   filter(province_territory == "Nova Scotia" |
            province_territory == "New Brunswick" |
-           province_territory == "Prince Edward Island") %>% 
-  mutate(count = 1)
+           province_territory == "Prince Edward Island")
 
 class(wind_turbine$lat_deg)
 
