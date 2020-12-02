@@ -3,6 +3,9 @@ library(lubridate)
 library(scales)
 library(zoo)
 library(patchwork)
+library(extrafont)
+font_import()
+fonts()
 
 shelters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-12-01/shelters.csv')
 
@@ -59,17 +62,16 @@ summary(d$occ_rate_av)
 
 # plot occupancy rate per month, year
 p <- ggplot(data = d[d$sector == "Men",])  +
-  geom_line(aes(x = date_viz, y = occ_rate_av, group = sector), size = 1, color = "darkblue") +
-  scale_x_continuous(breaks = NULL) +
+  geom_line(aes(x = date_viz, y = occ_rate_av, group = sector), size = 1, color = "orangered4") +
+  scale_x_yearmon(limits = c(2017,2020.1), labels = NULL) +
   scale_y_continuous(breaks = NULL) +
-  #geom_hline(yintercept = 93) +
-  annotate("segment", xend = 2020, x = 2018.54, y = 93, yend = 93, colour = "darkblue", alpha = .4, linetype = "dashed") +
-  annotate("text", x = 2019.5, y = 94.4, label = "Since July 2018,\nthe occupancy rate\nhas not decreased below 93%.", color =  "darkblue", size = 2.3) +
+  annotate("segment", xend = 2020, x = 2018.54, y = 93, yend = 93, colour = "orangered4", alpha = .4, linetype = "dashed") +
+  annotate("text", x = 2019.5, y = 94.4, label = "Since July 2018,\nthe occupancy rate\nhas not decreased below 93%.", color =  "orangered4", size = 2.3, family = "Arial Narrow") +
   theme_minimal() +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
-        plot.title = element_text(color = "darkblue", size = 16),
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank()) +
+  theme(axis.text.x = element_text(hjust = 1, vjust = 0.5),
+        plot.title = element_text(color = "orangered4", size = 20, family = "AppleMyungjo"),
+        panel.grid.major = element_line(color = "antiquewhite"),
+        panel.grid.minor = element_line(color = "antiquewhite")) +
   labs(title = "Occupancy rate of shelters for men\nand average temperature range\nin Toronto, 2017-2019",
        y = "",
        x  = "")
@@ -77,31 +79,33 @@ p
 
 # temperature plot
 p2 <- ggplot() +
-  geom_rect(data = d, 
+  statebins:::geom_rrect(data = d, 
             aes(xmin = date_viz - 0.08, 
                 xmax = date_viz + 0.08, 
                 ymin = low, ymax = high,
                 fill = high)) +
-  scale_fill_viridis_c(option = "cividis", alpha = .8) +
-  scale_x_yearmon(breaks = NULL) +
+  scale_fill_gradient(low = "steelblue1", high = "orangered4") +
+  scale_x_yearmon(limits = c(2017,2020.1), labels = NULL) +
   scale_y_continuous(limits = c(-40,55),
                      breaks = NULL) +
-  annotate("text", x = 2018, y = -22, label = "Average temperatures\nare between -7 and 0 degrees\nin January.", color =  "darkblue", size = 2.6) +
-  annotate("text", x = 2018.45, y = 45, label = "They reach between\n18 and 28 degrees\nin July.", color =  "darkblue", size = 2.6) +
-  
+  annotate("text", x = 2018, y = -22, label = "Average temperatures\nare between -7 and 0 degree\nin January.", color =  "steelblue1", size = 2.6, family = "Arial Narrow") +
+  annotate("text", x = 2018.45, y = 45, label = "They reach between\n18 and 28 degrees\nin July.", color =  "orangered4", size = 2.6, family = "Arial Narrow") +
   theme_minimal() +
   theme(legend.position = "",
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, size = 15),
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank()) +
+        axis.text.x = element_text(hjust = 1, vjust = 0.5, size = 10),
+        panel.grid.major = element_line(color = "antiquewhite"),
+        panel.grid.minor = element_line(color = "antiquewhite")) +
   labs(title = "",
        y = "",
        x  = "")
 p2
 
+# path them together
 patch <- p / p2 + 
   plot_layout(heights = unit(c(4, 4), c('cm', 'cm')), widths = unit(c(15), c('cm'))) +
   plot_annotation(caption = 'Data: Open Toronto; Sharla Gelfand. Data viz: @florencevdubois',
-                  theme = theme(plot.caption = element_text(color = "darkblue")))
+                  theme = theme(plot.caption = element_text(color = "steelblue1", family = "Arial Narrow"),
+                                plot.background = element_rect(fill = "snow1")))
 patch
 
+ggsave(filename="plot-2020.12.01.png", plot = patch)
