@@ -64,11 +64,11 @@ summary(d$occ_rate_av)
 p <- ggplot(data = d[d$sector == "Men",])  +
   geom_line(aes(x = date_viz, y = occ_rate_av, group = sector), size = 1, color = "orangered4") +
   scale_x_yearmon(limits = c(2017,2020.1), labels = NULL) +
-  scale_y_continuous(breaks = NULL) +
+  scale_y_continuous() +
   annotate("segment", xend = 2020, x = 2018.54, y = 93, yend = 93, colour = "orangered4", alpha = .4, linetype = "dashed") +
   annotate("text", x = 2019.5, y = 94.4, label = "Since July 2018,\nthe occupancy rate\nhas not decreased below 93%.", color =  "orangered4", size = 2.3, family = "Arial Narrow") +
   theme_minimal() +
-  theme(axis.text.x = element_text(hjust = 1, vjust = 0.5),
+  theme(axis.text.y = element_text(color = "orangered4",  size = 10, family = "Arial Narrow"),
         plot.title = element_text(color = "orangered4", size = 20, family = "AppleMyungjo"),
         panel.grid.major = element_line(color = "antiquewhite"),
         panel.grid.minor = element_line(color = "antiquewhite")) +
@@ -92,7 +92,6 @@ p2 <- ggplot() +
   annotate("text", x = 2018.45, y = 45, label = "They reach between\n18 and 28 degrees\nin July.", color =  "orangered4", size = 2.6, family = "Arial Narrow") +
   theme_minimal() +
   theme(legend.position = "",
-        axis.text.x = element_text(hjust = 1, vjust = 0.5, size = 10),
         panel.grid.major = element_line(color = "antiquewhite"),
         panel.grid.minor = element_line(color = "antiquewhite")) +
   labs(title = "",
