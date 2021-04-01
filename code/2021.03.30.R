@@ -33,7 +33,7 @@ colours <- c(df1$hex)
 names(colours) <- c(df1$name) 
 p1 <- ggplot(aes(x = lightness_cat, y = num), data = df1) +
   geom_raster(aes(fill = name)) + 
-  annotate("text", x = 7, y =36, label = "WOOD", size = 12, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
+  annotate("text", x = 7, y =36, label = "WOOD", size = 10, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
   scale_fill_manual(values = colours) +
   scale_x_discrete() + #expand=c(0.77,0)
   theme_void() +
@@ -48,7 +48,7 @@ colours <- c(df2$hex)
 names(colours) <- c(df2$name) 
 p2 <- ggplot(aes(x = lightness_cat, y = num), data = df2) +
   geom_raster(aes(fill = name)) + 
-  annotate("text", x = 12.5, y =95, label = "GEM", size = 12, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
+  annotate("text", x = 12.5, y =95, label = "GEM", size = 10, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
   scale_fill_manual(values = colours) +
   scale_x_discrete() + #expand=c(0.77,0)
   theme_void() +
@@ -63,7 +63,7 @@ colours <- c(df3$hex)
 names(colours) <- c(df3$name) 
 p3 <- ggplot(aes(x = lightness_cat, y = num), data = df3) +
   geom_raster(aes(fill = name)) + 
-  annotate("text", x = 9, y =51, label = "DRINK", size = 12, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
+  annotate("text", x = 9, y =51, label = "DRINK", size = 10, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
   scale_fill_manual(values = colours) +
   scale_x_discrete() + #expand=c(0.77,0)
   theme_void() +
@@ -78,7 +78,7 @@ colours <- c(df4$hex)
 names(colours) <- c(df4$name) 
 p4<- ggplot(aes(x = lightness_cat, y = num), data = df4) +
   geom_raster(aes(fill = name)) + 
-  annotate("text", x = 12.5, y =145, label = "FOOD", size = 12, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
+  annotate("text", x = 12.5, y =145, label = "FOOD", size = 10, family = "Andale Mono", color = "salmon4") + #"text", x = 16.5, y =8.5, label = "WOOD", size = 20, family = "Andale Mono", color = "salmon4"
   scale_fill_manual(values = colours) +
   scale_x_discrete() + #expand=c(0.77,0)
   theme_void() +
@@ -86,13 +86,18 @@ p4<- ggplot(aes(x = lightness_cat, y = num), data = df4) +
         plot.background = element_rect(fill = "cornsilk", color = "cornsilk"),
         plot.margin=unit(c(1,1,1,1),"cm"),
         plot.caption = element_text(family = "Andale Mono", color = "salmon4")) +
-  labs(caption = "Data: @ProQuesAsker and @OfunneO. Dataviz: @florencevdubois")
+  labs(caption = "")
 p4
 
-patch <- (p1+p2)/(p3+p4) 
+patch <- (p1+p2)/(p3+p4) +
+  plot_annotation(title = "Names and Colours\nof Complexion Products",
+                  subtitle = "Data: @ProQuesAsker and @OfunneO\nDataviz: @florencevdubois")& 
+  theme(plot.title = element_text(family = "Andale Mono", face = "bold", color = "salmon4", size = 25, hjust = 0.5, vjust = -6),
+        plot.subtitle = element_text(family = "Andale Mono", color = "salmon3", size = 10,hjust = 0.7, vjust = -18),
+        plot.background = element_rect(fill = "cornsilk", color = "cornsilk"))
 patch
  
-ggsave("graphs/plot-2021.03.30.png", plot = patch, width = 11, height = 11)
+ggsave("graphs/plot-2021.03.30.png", plot = patch, width = 9, height = 9)
 
 
 
