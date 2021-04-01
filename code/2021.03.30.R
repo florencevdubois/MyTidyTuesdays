@@ -84,12 +84,14 @@ p4<- ggplot(aes(x = lightness_cat, y = num), data = df4) +
   theme_void() +
   theme(legend.position = "",
         plot.background = element_rect(fill = "cornsilk", color = "cornsilk"),
-        plot.margin=unit(c(1,1,1,1),"cm")) 
+        plot.margin=unit(c(1,1,1,1),"cm"),
+        plot.caption = element_text(family = "Andale Mono", color = "salmon4")) +
+  labs(caption = "Data: @ProQuesAsker and @OfunneO. Dataviz: @florencevdubois")
 p4
 
 patch <- (p1+p2)/(p3+p4) 
 patch
-
+ 
 ggsave("graphs/plot-2021.03.30.png", plot = patch, width = 11, height = 11)
 
 
