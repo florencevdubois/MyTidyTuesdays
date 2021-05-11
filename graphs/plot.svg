@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="242.25px" height="260.25px" viewBox="0 0 242.25 260.25" version="1.1">
+  <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
+    <gridsvg:generator name="gridSVG" version="1.7-2" time="2021-05-01 11:26:08"/>
+    <gridsvg:argument name="name" value="graphs/plot.svg"/>
+    <gridsvg:argument name="exportCoords" value="none"/>
+    <gridsvg:argument name="exportMappings" value="none"/>
+    <gridsvg:argument name="exportJS" value="none"/>
+    <gridsvg:argument name="res" value="72"/>
+    <gridsvg:argument name="prefix" value=""/>
+    <gridsvg:argument name="addClasses" value="FALSE"/>
+    <gridsvg:argument name="indent" value="TRUE"/>
+    <gridsvg:argument name="htmlWrapper" value="FALSE"/>
+    <gridsvg:argument name="usePaths" value="vpPaths"/>
+    <gridsvg:argument name="uniqueNames" value="TRUE"/>
+    <gridsvg:separator name="id.sep" value="."/>
+    <gridsvg:separator name="gPath.sep" value="::"/>
+    <gridsvg:separator name="vpPath.sep" value="::"/>
+  </metadata>
+  <g transform="translate(0, 260.25) scale(1, -1)">
+    <g id="gridSVG" fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-dasharray="none" stroke-width="0.75" font-size="12" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+      <defs>
+        <symbol id="gridSVG.pch19" viewBox="-5 -5 10 10" overflow="visible">
+          <circle cx="0" cy="0" r="3.75"/>
+        </symbol>
+      </defs>
+      <g id="layout.1">
+        <g id="layout.2">
+          <defs>
+            <clipPath id="layout::background.1-9-12-1.1.clipPath">
+              <rect x="0" y="0" width="323" height="347" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::background.1-9-12-1.1" clip-path="url(#layout::background.1-9-12-1.1.clipPath)">
+            <g id="background.1-9-12-1.1">
+              <rect id="background.1-9-12-1.1.1" x="0" y="0" width="323" height="347" transform="" stroke-width="1.07" stroke="rgb(0,0,0)" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill-opacity="1"/>
+            </g>
+          </g>
+          <defs>
+            <clipPath id="layout::panel.7-5-7-5.1.clipPath">
+              <rect x="9.83" y="44.07" width="284.83" height="220.66" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::panel.7-5-7-5.1" clip-path="url(#layout::panel.7-5-7-5.1.clipPath)">
+            <g id="panel.7-5-7-5.1">
+              <g id="grill.gTree.9561.1"/>
+              <g id="geom_pointrange.gTree.9546.1">
+                <g id="geom_linerange.segments.9543.1">
+                  <polyline id="geom_linerange.segments.9543.1.1" points="31.7,174.83 67.42,174.83" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.2" points="31.7,147.59 85.27,147.59" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.3" points="31.7,161.21 85.27,161.21" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.4" points="31.7,120.35 103.13,120.35" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.5" points="31.7,188.45 67.42,188.45" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.6" points="31.7,202.07 67.42,202.07" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.7" points="31.7,215.7 67.42,215.7" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.8" points="31.7,229.32 67.42,229.32" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.9" points="31.7,65.87 138.85,65.87" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.10" points="31.7,79.49 138.85,79.49" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.11" points="31.7,106.73 120.99,106.73" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.12" points="31.7,133.97 103.13,133.97" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.13" points="31.7,52.25 156.7,52.25" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.14" points="31.7,93.11 138.85,93.11" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.15" points="31.7,242.94 67.42,242.94" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="geom_linerange.segments.9543.1.16" points="31.7,256.56 67.42,256.56" stroke="rgb(41,41,41)" fill="none" stroke-width="1.28" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                </g>
+                <g id="geom_point.points.9545.1">
+                  <use id="geom_point.points.9545.1.1" href="#gridSVG.pch19" x="67.42" y="174.83" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.2" href="#gridSVG.pch19" x="85.27" y="147.59" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.3" href="#gridSVG.pch19" x="85.27" y="161.21" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.4" href="#gridSVG.pch19" x="103.13" y="120.35" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.5" href="#gridSVG.pch19" x="67.42" y="188.45" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.6" href="#gridSVG.pch19" x="67.42" y="202.07" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.7" href="#gridSVG.pch19" x="67.42" y="215.7" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.8" href="#gridSVG.pch19" x="67.42" y="229.32" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.9" href="#gridSVG.pch19" x="138.85" y="65.87" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.10" href="#gridSVG.pch19" x="138.85" y="79.49" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.11" href="#gridSVG.pch19" x="120.99" y="106.73" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.12" href="#gridSVG.pch19" x="103.13" y="133.97" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.13" href="#gridSVG.pch19" x="156.7" y="52.25" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.14" href="#gridSVG.pch19" x="138.85" y="93.11" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.15" href="#gridSVG.pch19" x="67.42" y="242.94" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                  <use id="geom_point.points.9545.1.16" href="#gridSVG.pch19" x="67.42" y="256.56" width="8.72" height="8.72" transform=" translate(-4.36,-4.36)" stroke="rgb(41,41,41)" fill="rgb(41,41,41)" font-size="8.72" stroke-width="1.63" stroke-opacity="1" fill-opacity="1"/>
+                </g>
+              </g>
+              <g id="GRID.text.9547.1">
+                <a xlink:href="https://archive.nytimes.com/www.nytimes.com/library/financial/061500cendant-split.html">
+                  <g id="GRID.text.9547.1.1" transform="translate(67.42, 174.83)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.1.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.1.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.1.tspan.1" dy="3.57" x="0">Henry R. Silverman, HFS INC</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://webcache.googleusercontent.com/search?q=cache:qsqM2rx4DMoJ:https://lasvegassun.com/news/2000/mar/09/primm-seeks-gag-order-in-rape-victim-suit/+&amp;cd=5&amp;hl=en&amp;ct=clnk&amp;gl=ph">
+                  <g id="GRID.text.9547.1.2" transform="translate(85.27, 147.59)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.2.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.2.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.2.tspan.1" dy="3.57" x="0">Gary E. Primm, PRIMADONNA RESORTS INC</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="Business brief -- american banknote corp.: Bankruptcy court approves proposal for reorganization. (2000, Dec 11). Wall Street Journal Retrieved from http://umiss.idm.oclc.org/login?url=https://www-proquest-com.umiss.idm.oclc.org/docview/398903814?accountid=14588&#10;https://www.sec.gov/Archives/edgar/data/51124/000005112400000012/0000051124-00-000012.txt&#10;https://fcpablog.com/2010/06/30/the-morris-weissman-story/&#10;">
+                  <g id="GRID.text.9547.1.3" transform="translate(85.27, 161.21)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.3.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.3.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.3.tspan.1" dy="3.57" x="0">Morris Weissman, AMERICAN BANKNOTE CORP</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.baltimoresun.com/news/bs-xpm-2003-03-30-0303290105-story.html&#10;https://www.restaurantbusinessonline.com/miller-files-lawsuit-against-ahold">
+                  <g id="GRID.text.9547.1.4" transform="translate(103.13, 120.35)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.4.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.4.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.4.tspan.1" dy="3.57" x="0">James L. Miller, U S FOODSERVICE INC</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.sec.gov/Archives/edgar/data/785161/000100515003000695/form8k.txt">
+                  <g id="GRID.text.9547.1.5" transform="translate(67.42, 188.45)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.5.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.5.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.5.tspan.1" dy="3.57" x="0">Richard M. Scrushy, ENCOMPASS HEALTH CORP</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.businesswire.com/news/home/20040412005772/en/Advanced-Marketing-Services-Inc.-Names-New-PresidentChief-Executive-Officer-and-Chief-Financial-Officer; https://www.nytimes.com/2003/07/24/business/agents-search-marketing-firm.html; https://authorlink.com/news/sec-seeks-to-compel-former-ams-execs-to-testify-in-fraud-case-2/">
+                  <g id="GRID.text.9547.1.6" transform="translate(67.42, 202.07)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.6.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.6.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.6.tspan.1" dy="3.57" x="0">Michael M. Nicita, ADVANCED MARKETING SERVICES</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="http://content.time.com/time/specials/packages/article/0,28804,1903155_1903156_1903195,00.html&#10; https://www.mercurynews.com/2010/03/26/brocade-ex-ceo-gregory-reyes-guilty-on-9-of-10-counts-in-2nd-backdating-trial/&#10; https://www.reuters.com/article/brocade/former-brocade-ceo-reyes-sentenced-to-18-months-in-prison-idUSN2419952520100624&#10; https://www.financialsense.com/contributors/walter-donway/just-another-successful-businessman-destroyed-greg-reyes&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:09/02/2004,cd_max:05/02/2005&amp;tbm=nws&amp;q=Gregory+Reyes+BROCADE+COMMUNICATIONS&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwj-o8-h0__hAhUJP6wKHX8eCbEQ_AUIDigB&amp;biw=1920&amp;bih=969&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:07/05/2004,cd_max:04/01/2005&amp;tbm=nws&amp;q=Gregory+Reyes+BROCADE+COMMUNICATIONS&#10; https://www.google.com/search?q=Gregory+Reyes+BROCADE+COMMUNICATIONS">
+                  <g id="GRID.text.9547.1.7" transform="translate(67.42, 215.7)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.7.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.7.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.7.tspan.1" dy="3.57" x="0">Gregory L. Reyes, BROCADE COMMUNICATIONS SYS</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.thestreet.com/technology/three-top-comverse-tech-execs-resign-10282664&#10; #&#10; #&#10; https://www.google.com/search?q=Kobi+Alexander+COMVERSE+TECHNOLOGY">
+                  <g id="GRID.text.9547.1.8" transform="translate(67.42, 229.32)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.8.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.8.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.8.tspan.1" dy="3.57" x="0">Kobi Alexander, COMVERSE TECHNOLOGY INC</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.sec.gov/news/press/2008/2008-200.htm&#10; https://www.fbi.gov/kansascity/press-releases/2009/kc101509.htm&#10; #&#10; #&#10; https://www.google.com/search?q=Timothy+Webster+AMER+ITALIAN+PASTA+CO">
+                  <g id="GRID.text.9547.1.9" transform="translate(138.85, 65.87)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.9.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.9.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.9.tspan.1" dy="3.57" x="0">Timothy S. Webster, AMER ITALIAN PASTA CO -CL A</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.heraldtribune.com/news/20101211/ex-executives-of-vitesse-are-charged-with-fraud/2&#10; #&#10; #&#10; https://www.google.com/search?q=Louis+Tomasetta+VITESSE+SEMICONDUCTOR">
+                  <g id="GRID.text.9547.1.10" transform="translate(138.85, 79.49)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.10.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.10.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.10.tspan.1" dy="3.57" x="0">Louis R. Tomasetta, VITESSE SEMICONDUCTOR CORP</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.insurancejournal.com/news/national/2009/12/31/106304.htm&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:08/02/2012,cd_max:04/01/2013&amp;tbm=nws&amp;q=James+Maguire+PHILADELPHIA+CONS+HLDG&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwj-o8-h0__hAhUJP6wKHX8eCbEQ_AUIDigB&amp;biw=1920&amp;bih=969&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:06/04/2012,cd_max:03/01/2013&amp;tbm=nws&amp;q=James+Maguire+PHILADELPHIA+CONS+HLDG&#10; https://www.google.com/search?q=James+Maguire+PHILADELPHIA+CONS+HLDG">
+                  <g id="GRID.text.9547.1.11" transform="translate(120.99, 106.73)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.11.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.11.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.11.tspan.1" dy="3.57" x="0">James Joseph Maguire Jr., PHILADELPHIA CONS HLDG CORP</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.washingtontimes.com/news/2012/jan/10/webmd-ceo-gattinella-resigns/&#10; https://www.washingtontimes.com/news/2012/jan/10/webmd-ceo-gattinella-resigns/&#10; http://klewtv.com/archive/webmd-ceo-gattinella-resigns-11-19-2015&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:09/02/2011,cd_max:05/01/2012&amp;tbm=nws&amp;q=Wayne+Gattinella+WEBMD+HEALTH&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwj-o8-h0__hAhUJP6wKHX8eCbEQ_AUIDigB&amp;biw=1920&amp;bih=969&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:07/05/2011,cd_max:03/31/2012&amp;tbm=nws&amp;q=Wayne+Gattinella+WEBMD+HEALTH&#10; https://www.google.com/search?q=Wayne+Gattinella+WEBMD+HEALTH">
+                  <g id="GRID.text.9547.1.12" transform="translate(103.13, 133.97)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.12.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.12.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.12.tspan.1" dy="3.57" x="0">Wayne T. Gattinella, WEBMD HEALTH CORP</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.huffingtonpost.ca/2016/03/21/j-michael-pearson-valeant_n_9515494.html">
+                  <g id="GRID.text.9547.1.13" transform="translate(156.7, 52.25)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.13.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.13.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.13.tspan.1" dy="3.57" x="0">J. Michael Pearson, VALEANT PHARMACEUTICALS -OLD</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.nytimes.com/2017/03/21/business/after-failed-cabinet-bid-puzder-leaves-restaurant-post.html&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:12/01/2016,cd_max:07/31/2017&amp;tbm=nws&amp;q=Andrew+Puzder+CKE+RESTAURANTS&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwj-o8-h0__hAhUJP6wKHX8eCbEQ_AUIDigB&amp;biw=1920&amp;bih=969&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:10/03/2016,cd_max:06/30/2017&amp;tbm=nws&amp;q=Andrew+Puzder+CKE+RESTAURANTS&#10; https://www.google.com/search?q=Andrew+Puzder+CKE+RESTAURANTS">
+                  <g id="GRID.text.9547.1.14" transform="translate(138.85, 93.11)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.14.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.14.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.14.tspan.1" dy="3.57" x="0">Andrew F. Puzder, CKE RESTAURANTS INC</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.thestreet.com/markets/mergers-and-acquisitions/medical-device-companies-vascular-solutions-teleflex-agree-to-1-billion-merger-13912212&#10; https://www.wsj.com/articles/sally-yatess-legacy-of-injustice-at-the-department-of-justice-1487290306&#10; https://www.thestreet.com/story/13912212/1/medical-device-companies-vascular-solutions-teleflex-agree-to-1-billion-merger.html&#10; https://www.powerlineblog.com/archives/2017/02/sally-yatess-legacy-of-injustice.php&#10; https://www.palisadeshudson.com/2017/03/why-i-couldnt-wait-to-see-them-go/&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:10/19/2016,cd_max:06/18/2017&amp;tbm=nws&amp;q=Howard+Root+VASCULAR+SOLUTIONS&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwj-o8-h0__hAhUJP6wKHX8eCbEQ_AUIDigB&amp;biw=1920&amp;bih=969&#10; https://www.google.com/search?safe=active&amp;rlz=1C1CHBF_enUS819US819&amp;tbs=cdr:1,cd_min:08/21/2016,cd_max:05/18/2017&amp;tbm=nws&amp;q=Howard+Root+VASCULAR+SOLUTIONS&#10; https://www.google.com/search?q=Howard+Root+VASCULAR+SOLUTIONS">
+                  <g id="GRID.text.9547.1.15" transform="translate(67.42, 242.94)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.15.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.15.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.15.tspan.1" dy="3.57" x="0">Howard C. Root, VASCULAR SOLUTIONS INC</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+                <a xlink:href="https://www.sec.gov/Archives/edgar/data/0000063908/000120677420001117/mcd3631831-def14a.htm">
+                  <g id="GRID.text.9547.1.16" transform="translate(67.42, 256.56)" stroke-width="0.1">
+                    <g id="GRID.text.9547.1.16.scale" transform="scale(1, -1)">
+                      <text x="0" y="0" id="GRID.text.9547.1.16.text" text-anchor="start" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                        <tspan id="GRID.text.9547.1.16.tspan.1" dy="3.57" x="0">Stephen J. Easterbrook, MCDONALD'S CORP</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </a>
+              </g>
+              <g id="GRID.text.9548.1">
+                <g id="GRID.text.9548.1.1" transform="translate(22.77, 174.83)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.1.tspan.1" dy="3.57" x="0">1996</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.2" transform="translate(22.77, 147.59)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.2.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.2.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.2.tspan.1" dy="3.57" x="0">1997</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.3" transform="translate(22.77, 161.21)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.3.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.3.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.3.tspan.1" dy="3.57" x="0">1997</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.4" transform="translate(22.77, 120.35)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.4.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.4.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.4.tspan.1" dy="3.57" x="0">1999</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.5" transform="translate(22.77, 188.45)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.5.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.5.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.5.tspan.1" dy="3.57" x="0">2001</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.6" transform="translate(22.77, 202.07)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.6.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.6.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.6.tspan.1" dy="3.57" x="0">2002</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.7" transform="translate(22.77, 215.7)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.7.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.7.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.7.tspan.1" dy="3.57" x="0">2003</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.8" transform="translate(22.77, 229.32)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.8.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.8.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.8.tspan.1" dy="3.57" x="0">2004</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.9" transform="translate(22.77, 65.87)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.9.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.9.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.9.tspan.1" dy="3.57" x="0">2004</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.10" transform="translate(22.77, 79.49)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.10.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.10.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.10.tspan.1" dy="3.57" x="0">2005</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.11" transform="translate(22.77, 106.73)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.11.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.11.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.11.tspan.1" dy="3.57" x="0">2007</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.12" transform="translate(22.77, 133.97)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.12.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.12.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.12.tspan.1" dy="3.57" x="0">2008</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.13" transform="translate(22.77, 52.25)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.13.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.13.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.13.tspan.1" dy="3.57" x="0">2009</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.14" transform="translate(22.77, 93.11)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.14.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.14.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.14.tspan.1" dy="3.57" x="0">2011</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.15" transform="translate(22.77, 242.94)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.15.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.15.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.15.tspan.1" dy="3.57" x="0">2015</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.9548.1.16" transform="translate(22.77, 256.56)" stroke-width="0.1">
+                  <g id="GRID.text.9548.1.16.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9548.1.16.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="9.96" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9548.1.16.tspan.1" dy="3.57" x="0">2017</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.text.9549.1">
+                <g id="GRID.text.9549.1.1" transform="translate(49.56, 262.01)" stroke-width="0.1">
+                  <g id="GRID.text.9549.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9549.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="7.11" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9549.1.1.tspan.1" dy="2.55" x="0">2 years</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.text.9550.1">
+                <g id="GRID.text.9550.1.1" transform="translate(58.49, 166.66)" stroke-width="0.1">
+                  <g id="GRID.text.9550.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9550.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="7.11" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9550.1.1.tspan.1" dy="2.55" x="0">3 years</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.text.9551.1">
+                <g id="GRID.text.9551.1.1" transform="translate(67.42, 139.42)" stroke-width="0.1">
+                  <g id="GRID.text.9551.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9551.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="7.11" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9551.1.1.tspan.1" dy="2.55" x="0">4 years</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.text.9552.1">
+                <g id="GRID.text.9552.1.1" transform="translate(76.35, 112.18)" stroke-width="0.1">
+                  <g id="GRID.text.9552.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9552.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="7.11" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9552.1.1.tspan.1" dy="2.55" x="0">5 years</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.text.9553.1">
+                <g id="GRID.text.9553.1.1" transform="translate(85.27, 98.56)" stroke-width="0.1">
+                  <g id="GRID.text.9553.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9553.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="7.11" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9553.1.1.tspan.1" dy="2.55" x="0">6 years</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.text.9554.1">
+                <g id="GRID.text.9554.1.1" transform="translate(94.2, 57.69)" stroke-width="0.1">
+                  <g id="GRID.text.9554.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.9554.1.1.text" text-anchor="middle" stroke="rgb(41,41,41)" font-size="7.11" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.9554.1.1.tspan.1" dy="2.55" x="0">7 years</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::spacer.8-6-8-6.1"/>
+          <g id="layout::spacer.8-4-8-4.1"/>
+          <g id="layout::spacer.6-6-6-6.1"/>
+          <g id="layout::spacer.6-4-6-4.1"/>
+          <g id="layout::axis-t.6-5-6-5.1"/>
+          <g id="layout::axis-l.7-4-7-4.1">
+            <g id="layout::axis-l.7-4-7-4::GRID.VP.1968.1">
+              <g id="axis-l.7-4-7-4.1">
+                <g id="layout::axis-l.7-4-7-4::GRID.VP.1968::axis.1">
+                  <g id="axis.1">
+                    <g id="layout::axis-l.7-4-7-4::GRID.VP.1968::axis::axis.1-1-1-1.1"/>
+                    <g id="layout::axis-l.7-4-7-4::GRID.VP.1968::axis::axis.1-2-1-2.1"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-r.7-6-7-6.1"/>
+          <g id="layout::axis-b.8-5-8-5.1">
+            <g id="layout::axis-b.8-5-8-5::GRID.VP.1967.1">
+              <g id="axis-b.8-5-8-5.1">
+                <g id="layout::axis-b.8-5-8-5::GRID.VP.1967::axis.1">
+                  <g id="axis.2">
+                    <g id="layout::axis-b.8-5-8-5::GRID.VP.1967::axis::axis.1-1-1-1.1"/>
+                    <g id="layout::axis-b.8-5-8-5::GRID.VP.1967::axis::axis.2-1-2-1.1"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::xlab-t.5-5-5-5.1"/>
+          <g id="layout::xlab-b.9-5-9-5.1"/>
+          <g id="layout::ylab-l.7-3-7-3.1"/>
+          <g id="layout::ylab-r.7-7-7-7.1"/>
+          <g id="layout::subtitle.4-5-4-5.1"/>
+          <g id="layout::title.3-5-3-5.1">
+            <g id="layout::title.3-5-3-5::GRID.VP.1969.1" font-size="24" stroke="rgb(41,41,41)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+              <g id="layout::title.3-5-3-5::GRID.VP.1969::GRID.VP.1970.1">
+                <g id="title.3-5-3-5.1">
+                  <g id="GRID.text.9568.1">
+                    <g id="GRID.text.9568.1.1" transform="translate(66.79, 367.1)" stroke-width="0.1">
+                      <g id="GRID.text.9568.1.1.scale" transform="scale(1, -1)">
+                        <text x="0" y="0" id="GRID.text.9568.1.1.text" text-anchor="start" font-size="24" stroke="rgb(41,41,41)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                          <tspan id="GRID.text.9568.1.1.tspan.1" dy="17.21" x="0">Only 16 CEOs stayed in post more than 1 year</tspan>
+                          <tspan id="GRID.text.9568.1.1.tspan.2" dy="12.96" x="0"> after behavioral or policy-related issues unfolded</tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::caption.10-5-10-5.1">
+            <g id="layout::caption.10-5-10-5::GRID.VP.1971.1" font-size="8" stroke="rgb(41,41,41)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+              <g id="layout::caption.10-5-10-5::GRID.VP.1971::GRID.VP.1972.1">
+                <g id="caption.10-5-10-5.1">
+                  <g id="GRID.text.9573.1">
+                    <g id="GRID.text.9573.1.1" transform="translate(294.65, 35.85)" stroke-width="0.1">
+                      <g id="GRID.text.9573.1.1.scale" transform="scale(1, -1)">
+                        <text x="0" y="0" id="GRID.text.9573.1.1.text" text-anchor="end" font-size="8" stroke="rgb(41,41,41)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(41,41,41)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                          <tspan id="GRID.text.9573.1.1.tspan.1" dy="5.74" x="0">Data: Gentry et al. 2021; Dataviz: @florencevdubois</tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::tag.2-2-2-2.1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
