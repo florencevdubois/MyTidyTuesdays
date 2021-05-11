@@ -28,8 +28,6 @@ dat <- broadband %>%
 table(dat$ST)
 
 # shapes
-#state <- map_data("state")
-#states <- subset(state, str_detect(region, "california|New york|arizona|illinois|pennsylvaina"))
 counties <- map_data("county")
 states_county <- subset(counties, str_detect(region, "california|new york|arizona|illinois|pennsylvania|texas|ohio")) %>% 
   mutate(ST = ifelse(region == "california", "CA",
@@ -45,20 +43,6 @@ table(states_county$ST, states_county$region)
 df <- states_county %>% full_join(dat)
 
 table(df$ST, df$region)
-
-# 
-#CA_zips <- search_state('CA') %>% 
-#  mutate(subregion = str_remove_all(county, "County"),
-#         subregion = str_trim(subregion, side = "both"),
-#         subregion = str_to_lower(subregion)) %>% 
-#  group_by(subregion) %>% 
-#  mutate(median_hshld_inc = median(median_household_income, na.rm = T),
-#         median_home_value = median(median_home_value, na.rm = T)) %>% 
-#  ungroup() %>% 
-#  distinct(subregion, median_hshld_inc, median_home_value)
-#  
-#df2 <- df %>% full_join(CA_zips) %>% 
-#  mutate(ratio_broadband_inc = broad_avail/median_hshld_inc*100)
 
 ca_map <- ggplot(data=subset(df, ST=="CA"), 
                  mapping=aes(x=long, 
